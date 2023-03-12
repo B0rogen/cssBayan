@@ -1,0 +1,79 @@
+.bayan-container {
+    margin: 20px 0;
+    width: 500px;
+
+ }
+.bayan-container .bayan-body {
+     width: 500px;
+    margin: 0 auto;
+    height: 0;
+    background-color: #FFF;
+    line-height: 18px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    opacity:0;
+    transition: 2s;
+}
+.bayan-container .bayan-body p {
+    margin: 0 0 10px;
+}
+.bayan-container label {
+    border-top: 1px solid #000;
+    cursor: pointer;
+    background-color: #FFF;
+    display: block;
+    padding: 15px 20px;
+    width: 100%;
+    color: #000;
+    font-weight: 300;
+    box-sizing: border-box;
+    z-index: 100;
+    font-family: Verdana, sans-serif;   
+    font-size: 18px;
+    margin: 0 0 5px;
+    transition: color .35s;
+}
+.bayan-container img {
+    max-width: 100%;
+}
+.bayan-container label:hover {
+    color: #0000FF;
+}
+.bayan-container input{
+    display: none;
+}
+.bayan-container label:before {
+    content: '\276F';
+    float: right;
+}
+
+.bayan-container input:hover + label + .bayan-body {
+    height: auto;
+    margin-top: -5px;
+    padding: 20px 30px 10px;
+    opacity:1;
+    transition: 1s;
+}
+
+.bayan-container input:checked + label + .bayan-body {
+    height: auto;
+    margin-top: -5px;
+    padding: 20px 30px 10px;
+    opacity:1;
+    transition: 1s;
+}
+.bayan-container input:checked + label:before {
+    transition: transform .35s;
+    transform: rotate(90deg);
+}
+.bayan-container input:checked + label + .acor-body {
+    height: auto;
+    margin-top: -5px;
+    color: #000;
+    padding: 20px 30px 10px;
+}
+.bayan-container p {
+  text-align: center;
+}
+
