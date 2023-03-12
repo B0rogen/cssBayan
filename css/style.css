@@ -13,7 +13,7 @@ i {
 }
 .bayan-container {
     margin: 0 auto;
-    width: 500px;
+    width: 700px;
  }
  .bayan-container i {
     display: none;
@@ -22,7 +22,7 @@ i {
     display: inline-block;
  }
 .bayan-container .bayan-body {
-     width: 500px;
+     width: 700px;
     margin: 0 auto;
     height: 0;
     background-color: #FFF;
